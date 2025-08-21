@@ -6,6 +6,5 @@ Variational quantum algorithms exploit the features of superposition and entangl
 
 files from collaborator jiakun@seas.upenn.edu:
 
-FEM_consistent_system_for_HexTruss.ipynb
-
+FEM_consistent_system_for_HexTruss.ipynb;
 FEM_lumped_system_for_PlaneStrain.ipynb
