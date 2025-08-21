@@ -1,1 +1,5 @@
-# VQE_for_Mechanical_Engineering
+#Implementation of an integrated pipeline of FEM-VQE on IBM QPUs
+
+https://doi.org/10.1016/j.eml.2023.102117
+
+Variational quantum algorithms exploit the features of superposition and entanglement to optimize a cost function efficiently by manipulating the quantum states. They are suitable for noisy intermediate-scale quantum (NISQ) computers that recently became accessible to the worldwide research community. Here, we implement and demonstrate the numerical processes on the 5-qubit and 7-qubit quantum processors on the IBM Qiskit Runtime platform. We combine the commercial finite-element-method (FEM) software ABAQUS with the implementation of Variational Quantum Eigensolver (VQE) to establish an integrated pipeline. Three examples are used to investigate the performance: a hexagonal truss, a Timoshenko beam, and a plane-strain continuum. We conduct parametric studies on the convergence of fundamental natural frequency estimation using this hybrid quantum-classical approach. Our findings can be extended to problems with many more degrees of freedom when quantum computers with hundreds of qubits become available in the near future.
